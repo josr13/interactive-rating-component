@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Interactive rating component</title>
 </head>
+
 <body>
+  <main class="rating">
+    <div class="rtncontainer">
+      <img src="images/icon-star.svg" alt="Star icon" class="rtncontainer__icon">
+      <h1 class="rtncontainer__title">How did we do?</h1>
+      <p class="rtncontainer__desc">Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+      <div class="rtncontainer__rating">
+        <a href="" class="1">1</a>
+        <a href="" class="2">2</a>
+        <a href="" class="3">3</a>
+        <a href="" class="4">4</a>
+        <a href="" class="5">5</a>
+      </div>
+      <button class="rtncontainer__btn">Submit</button>
+    </div>
+  </main>
 
-  <!-- Rating state start -->
+  <section class="thankyou">
+    <div class="tycontainer">
+      <img src="images/illustration-thank-you.svg" alt="Illustration" class="tycontainer__img">
+      <p class="tycontainer__selected">
+        You selected 
+        <span class="tycontainer__selected__rating">
+          
+        </span>
+         out of 5
+      </p>
+      <h1 class="tycontainer__title">Thank you!</h1>
+      <p class="tycontainer__desc">We appreciate you taking the time to give a rating. If you ever need more support,
+        don't hesitate to get in touch!</p>
+    </div>
+  </section>
 
-  How did we do?
-
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
-
-  1 2 3 4 5
-
-  Submit
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don't hesitate to get in touch!
-
-  <!-- Thank you state end -->
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://github.com/josr13">josr13</a>.
-  </div>
+  </footer>
 </body>
+
 </html>
