@@ -24,7 +24,8 @@ body {
         padding: 1.5em;
         background: $dark-blue;
         border-radius: 15px;
-        box-shadow: inset 0px -50px 200px -100px;
+        //box-shadow: inset 0px -50px 200px -100px;
+        box-shadow: inset 0px -150px 300px -175px;
     }
 
     .rating {
@@ -89,6 +90,33 @@ body {
     .thankyou {
         //display: none;
         
+        .tycontainer {
+            &__img {
+                width: 9em;
+                margin: 0.5em auto 1.5em;
+            }
+
+            &__selected {
+                color: $orange;
+                background-color: $dark-blue;
+                border-radius: 30px;
+                margin: auto;
+                padding: 0.5em 0.75em;
+                font-size: 0.9rem;                
+            }
+
+            &__title {
+                color: $white;
+                margin: 1em auto 0.5em;
+                font-weight: 700;
+            }
+
+            &__desc {
+                color: $light-grey;
+                margin: auto auto 1em;
+                text-align: center;
+            }
+        }
     }
 
     footer.attribution {
