@@ -1,1 +1,97 @@
 @import 'variables';
+
+:root {
+    font-size: $font-size;
+    font-family: $font-family;
+    background: $very-dark-blue;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 19em;
+        height: 100%;
+        margin: auto;
+        padding: 1.5em;
+        background: $dark-blue;
+        border-radius: 15px;
+        box-shadow: inset 0px -50px 200px -100px;
+    }
+
+    .rating {
+        .rtncontainer {
+            display: none;
+            &__icon {
+                height: 0.9em;
+                width: 0.9em;
+                background: $dark-blue;
+                border-radius: 50%;
+                padding: 0.9em;
+            }
+
+            &__title {
+                color: $white;
+                font-size: 1.65rem;
+                font-weight: 700;
+            }
+
+            &__desc {
+                color: $light-grey;
+                font-size: 0.95rem;
+                margin: 0 0 2em 0;
+                line-height: 1.5em;
+            }
+
+            &__rating {
+                display: flex;
+                flex-direction: row;
+                color: $medium-grey;
+                font-size: 0.9rem;
+                justify-content: space-between;
+                
+                .number {
+                    height: 1em;
+                    width: 1em;
+                    background: $dark-blue;
+                    border-radius: 50%;
+                    padding: 1em;
+                    text-align: center;
+                    margin: 0;
+                }
+            }
+
+            &__btn {
+                border: none;
+                background: $orange;
+                color: $white;
+                font-family: inherit;
+                font-size: 0.9rem;
+                text-transform: uppercase;
+                letter-spacing: 0.25em;
+                text-align: center;
+                padding: 1em;
+                margin: 1.75em 0 0.75em;
+                border-radius: 25px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .thankyou {
+        //display: none;
+        
+    }
+
+    footer.attribution {
+        display: none;
+    }
+}

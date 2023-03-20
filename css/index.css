@@ -1,0 +1,79 @@
+:root {
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+  background: hsl(216, 12%, 8%);
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body .container {
+  display: flex;
+  flex-direction: column;
+  width: 19em;
+  height: 100%;
+  margin: auto;
+  padding: 1.5em;
+  background: hsl(213, 19%, 18%);
+  border-radius: 15px;
+  box-shadow: inset 0px -50px 200px -100px;
+}
+body .rating .rtncontainer {
+  display: none;
+}
+body .rating .rtncontainer__icon {
+  height: 0.9em;
+  width: 0.9em;
+  background: hsl(213, 19%, 18%);
+  border-radius: 50%;
+  padding: 0.9em;
+}
+body .rating .rtncontainer__title {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.65rem;
+  font-weight: 700;
+}
+body .rating .rtncontainer__desc {
+  color: hsl(217, 12%, 63%);
+  font-size: 0.95rem;
+  margin: 0 0 2em 0;
+  line-height: 1.5em;
+}
+body .rating .rtncontainer__rating {
+  display: flex;
+  flex-direction: row;
+  color: hsl(216, 12%, 54%);
+  font-size: 0.9rem;
+  justify-content: space-between;
+}
+body .rating .rtncontainer__rating .number {
+  height: 1em;
+  width: 1em;
+  background: hsl(213, 19%, 18%);
+  border-radius: 50%;
+  padding: 1em;
+  text-align: center;
+  margin: 0;
+}
+body .rating .rtncontainer__btn {
+  border: none;
+  background: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  font-family: inherit;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  text-align: center;
+  padding: 1em;
+  margin: 1.75em 0 0.75em;
+  border-radius: 25px;
+  cursor: pointer;
+}
+body footer.attribution {
+  display: none;
+}/*# sourceMappingURL=index.css.map */
