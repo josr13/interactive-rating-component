@@ -23,9 +23,6 @@ body .container {
   border-radius: 15px;
   box-shadow: inset 0px -150px 300px -175px;
 }
-body .rating .rtncontainer {
-  display: none;
-}
 body .rating .rtncontainer__icon {
   height: 0.9em;
   width: 0.9em;
@@ -60,6 +57,14 @@ body .rating .rtncontainer__rating .number {
   text-align: center;
   margin: 0;
 }
+body .rating .rtncontainer__rating .number:hover {
+  background: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+body .rating .rtncontainer__rating .selected {
+  background: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
 body .rating .rtncontainer__btn {
   border: none;
   background: hsl(25, 97%, 53%);
@@ -73,6 +78,13 @@ body .rating .rtncontainer__btn {
   margin: 1.75em 0 0.75em;
   border-radius: 25px;
   cursor: pointer;
+}
+body .rating .rtncontainer__btn:hover {
+  background: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+body .thankyou {
+  display: none;
 }
 body .thankyou .tycontainer__img {
   width: 9em;

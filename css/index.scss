@@ -29,8 +29,10 @@ body {
     }
 
     .rating {
+        //display: none;
+        
         .rtncontainer {
-            display: none;
+            
             &__icon {
                 height: 0.9em;
                 width: 0.9em;
@@ -67,6 +69,16 @@ body {
                     padding: 1em;
                     text-align: center;
                     margin: 0;
+
+                    &:hover {
+                        background: $orange;
+                        color: $white;
+                    }
+                }
+
+                .selected {
+                    background: $light-grey;
+                    color: $white;
                 }
             }
 
@@ -83,13 +95,19 @@ body {
                 margin: 1.75em 0 0.75em;
                 border-radius: 25px;
                 cursor: pointer;
+
+                &:hover {
+                    background: $white;
+                    color: $orange;
+                }
+
+                
             }
         }
     }
 
     .thankyou {
-        //display: none;
-        
+        display: none;
         .tycontainer {
             &__img {
                 width: 9em;
