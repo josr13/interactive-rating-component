@@ -19,12 +19,16 @@ a {
 }
 
 body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     .container {
         display: flex;
         flex-direction: column;
         width: 19em;
         height: 100%;
         margin: auto;
+        margin-top: 10em;
         padding: 1.5em;
         background: $dark-blue;
         border-radius: 15px;
@@ -34,7 +38,6 @@ body {
 
     .rating {
         .rtncontainer {
-            
             &__icon {
                 height: 0.9em;
                 width: 0.9em;
@@ -102,8 +105,6 @@ body {
                     background: $white;
                     color: $orange;
                 }
-
-                
             }
         }
     }
