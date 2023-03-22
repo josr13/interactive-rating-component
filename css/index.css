@@ -12,6 +12,10 @@ a {
   color: inherit;
 }
 
+.hidden {
+  display: none;
+}
+
 body .container {
   display: flex;
   flex-direction: column;
@@ -82,9 +86,6 @@ body .rating .rtncontainer__btn {
 body .rating .rtncontainer__btn:hover {
   background: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
-}
-body .thankyou {
-  display: none;
 }
 body .thankyou .tycontainer__img {
   width: 9em;

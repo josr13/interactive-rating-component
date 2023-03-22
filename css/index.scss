@@ -14,6 +14,10 @@ a {
     color: inherit;
 }
 
+.hidden {
+    display: none;
+}
+
 body {
     .container {
         display: flex;
@@ -29,8 +33,6 @@ body {
     }
 
     .rating {
-        //display: none;
-        
         .rtncontainer {
             
             &__icon {
@@ -107,7 +109,6 @@ body {
     }
 
     .thankyou {
-        display: none;
         .tycontainer {
             &__img {
                 width: 9em;
