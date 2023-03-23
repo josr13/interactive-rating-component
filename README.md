@@ -19,7 +19,7 @@ This is my solution to the [Interactive rating component challenge on Frontend M
 
 ### Links
 
-- Solution URL: [Frontend Mentor]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-interactive-rating-component-using-flexbox-sass-and-bem-VRyk3tAXDT)
 - Live Site URL: [GitHub Pages](https://josr13.github.io/faq-accordion-card/)
 
 ## My process
