@@ -15,7 +15,7 @@ This is my solution to the [Interactive rating component challenge on Frontend M
 
 ### Screenshot
 
-![FAQ accordion card desktop screenshot](images/screenshot.png)
+![Interactive rating component desktop screenshot](images/screenshot.png)
 
 ### Links
 
