@@ -19,9 +19,6 @@ a {
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     .container {
         display: flex;
         flex-direction: column;
@@ -122,7 +119,7 @@ body {
                 border-radius: 30px;
                 margin: auto;
                 padding: 0.5em 0.75em;
-                font-size: 0.9rem;                
+                font-size: 0.9rem;
             }
 
             &__title {
@@ -141,5 +138,89 @@ body {
 
     footer.attribution {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    :root {
+        height: 100vh;
+    }
+    body {
+        .container {
+            width: 23em;
+            margin-top: 14em;
+            padding: 2em;
+        }
+        
+        .rating {
+            .rtncontainer {
+                &__icon {
+                    height: 1.25em;
+                    width: 1.25em;
+                    padding: 1em;
+                }
+    
+                &__title {
+                    font-size: 1.85rem;
+                    margin: 1.25em 0 0.5em;
+                }
+
+                &__desc {
+                    font-size: 1rem;
+                    margin: 0 0 1.6em 0;
+                }
+
+                &__rating {
+                    font-size: 1.1rem;
+                    
+                    .number {
+                        margin-bottom: 0.6em;
+                    }
+                }
+
+                &__btn {
+                    font-size: 1rem;
+                    letter-spacing: 0.2em;
+                    margin: 1.5em 0 0;
+                }
+            }
+        }
+
+        .thankyou {
+            .tycontainer {
+                &__img {
+                    width: 11em;
+                    margin: 1em auto 2em;
+                }
+    
+                &__selected {
+                    padding: 0.5em 1.25em;
+                    font-size: 1rem;
+                }
+    
+                &__title {
+                    margin: 1.25em auto 0.5em;
+                    font-size: 1.75rem;
+                }
+    
+                &__desc {
+                    margin: auto auto 1.25em;
+                    line-height: 1.5em;
+                    font-size: 1.025rem;
+                }
+            }
+        }
+
+        footer.attribution {
+            display: block;
+            position: absolute;
+            bottom: 0;
+            color: $medium-grey;
+            
+            a {
+                color: orange;
+                cursor: pointer;
+            }
+        }
     }
 }

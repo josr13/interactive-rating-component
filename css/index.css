@@ -16,11 +16,6 @@ a {
   display: none;
 }
 
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 body .container {
   display: flex;
   flex-direction: column;
@@ -117,4 +112,66 @@ body .thankyou .tycontainer__desc {
 }
 body footer.attribution {
   display: none;
+}
+
+@media only screen and (min-width: 1440px) {
+  :root {
+    height: 100vh;
+  }
+  body .container {
+    width: 23em;
+    margin-top: 14em;
+    padding: 2em;
+  }
+  body .rating .rtncontainer__icon {
+    height: 1.25em;
+    width: 1.25em;
+    padding: 1em;
+  }
+  body .rating .rtncontainer__title {
+    font-size: 1.85rem;
+    margin: 1.25em 0 0.5em;
+  }
+  body .rating .rtncontainer__desc {
+    font-size: 1rem;
+    margin: 0 0 1.6em 0;
+  }
+  body .rating .rtncontainer__rating {
+    font-size: 1.1rem;
+  }
+  body .rating .rtncontainer__rating .number {
+    margin-bottom: 0.6em;
+  }
+  body .rating .rtncontainer__btn {
+    font-size: 1rem;
+    letter-spacing: 0.2em;
+    margin: 1.5em 0 0;
+  }
+  body .thankyou .tycontainer__img {
+    width: 11em;
+    margin: 1em auto 2em;
+  }
+  body .thankyou .tycontainer__selected {
+    padding: 0.5em 1.25em;
+    font-size: 1rem;
+  }
+  body .thankyou .tycontainer__title {
+    margin: 1.25em auto 0.5em;
+    font-size: 1.75rem;
+  }
+  body .thankyou .tycontainer__desc {
+    margin: auto auto 1.25em;
+    line-height: 1.5em;
+    font-size: 1.025rem;
+  }
+  body footer.attribution {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    color: hsl(216, 12%, 54%);
+  }
+  body footer.attribution a {
+    color: orange;
+    cursor: pointer;
+  }
 }/*# sourceMappingURL=index.css.map */
